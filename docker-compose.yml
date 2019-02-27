@@ -1,0 +1,9 @@
+version: '2.3'
+
+services:
+  screeps:
+    build: .
+    volumes:
+     - "./data:/screeps"
+    ports:
+     - 21024:21025
